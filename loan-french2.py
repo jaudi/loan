@@ -43,7 +43,7 @@ def main():
     
     st.write(data)
     st.markdown(f"**Total Interest Paid:** {total_interest_paid:.2f}")
-    st.markdown(f"**Total Cuota Paid:** {total_Repayment:.2f}")
+    st.markdown(f"**Total Repayments Paid:** {total_Repayment:.2f}")
 
     chart_data = pd.DataFrame({
         'Category': ['Interest Paid', 'Cuota'],
